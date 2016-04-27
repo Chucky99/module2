@@ -1,0 +1,238 @@
+/********************************************/
+/***** Module 2 Coding Assignment - CSS *****/
+/********************************************/
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Module 2 Coding Assignment - CSS</title>
+<style type="text/css">
+
+
+/***** Define all elements Style *****/
+/*************************************/
+* {
+	box-sizing: border-box;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+/***** Define Responsive Framework *****/
+/***************************************/
+
+/***** Desktop Devices *****/
+@media (min-width: 992px) {
+	.menu-box {
+		width: 31%;
+	}
+}
+
+/***** Tablet Devices *****/
+@media (min-width: 768px) and (max-width: 991px) {
+	.menu-box {
+		margin-bottom: 1%;
+	}
+
+	#chicken-menu-box {
+		width: 47.65%;
+	}
+	#beef-menu-box {
+		width: 47.65%;
+	}
+	#sushi-menu-box {
+		width: 97.5%;
+	}
+}
+
+/***** Mobile Devices *****/
+@media (max-width: 767px) {
+	.menu-box {
+		width: 97.5%;
+		margin-bottom: 2%
+	}
+}
+
+
+/***** Define "body" Style *****/
+/*******************************/
+body {
+	margin: 0px;
+	padding: 5px;
+}
+
+
+/***** Define "h1" Style *****/
+/*****************************/
+h1 {
+	margin-top: 7%;
+	margin-bottom: 6%;
+	font-size: 175%;
+	color: dimgrey;
+	text-align: center;
+}
+
+
+/***** Define "menu-box" Class *****/
+/***********************************/
+
+.menu-box {
+	float: left;
+	font-family: Tahoma, Geneva, sans-serif;
+	background-color: lightgrey;
+	padding: 0px;
+	border: 1px solid black;
+	margin-top: 1%;
+	margin-right: 1%;
+	margin-left: 1%;
+	/* width: 31.0%; /*31/2% */
+	height: 280px;
+}
+
+/***** Define "chicken-menu-box" ID *****/
+/*****************************************/
+#chicken-menu-box {
+
+}
+
+
+/***** Define "beef-menu-box" ID *****/
+/**************************************/
+#beef-menu-box {
+
+}
+
+
+/***** Define "sushi-menu-box" ID *****/
+/***************************************/
+#sushi-menu-box {
+
+}
+
+/***** Define "menu-head" Class *****/
+/************************************/
+.menu-head {
+	float: right;
+	padding: 5px;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	width: 40%;
+	margin: 0px;
+	font-size: 125%;
+	text-align: center;
+}
+
+
+/***** Define "chicken-menu-head" ID *****/
+/*****************************************/
+#chicken-menu-head {
+	background-color: pink;
+}
+
+
+/***** Define "beef-menu-head" ID *****/
+/**************************************/
+#beef-menu-head {
+	background-color: red;
+	color: white;
+}
+
+
+/***** Define "sushi-menu-head" ID *****/
+/***************************************/
+#sushi-menu-head {
+	background-color: yellow;
+}
+
+
+/***** Define "menu-content" Class *****/
+/***************************************/
+.menu-content {
+	float: left;
+	padding: 7px;
+	border: 0px;
+	margin-top: 0%;
+	width: 95%;
+	height: 80%;/* 95% */
+	text-align: left;
+	overflow: auto;
+}
+
+
+/***** Define "chicken-menu-content" ID *****/
+/********************************************/
+#chicken-menu-content {
+
+}
+
+
+/***** Define "beef-menu-content" ID *****/
+/********************************************/
+#beef-menu-content {
+
+}
+
+
+/***** Define "sushi-menu-content" ID *****/
+/********************************************/
+#sushi-menu-content {
+
+}
+
+
+/* Simple Responsive Framework. 
+.row {
+	width: 50%;
+}
+
+/********** Desktop Devices **********
+@media (min-width: 992px) {
+	.col-desktop-1, .col-desktop-2, .col-desktop-3{
+		float: left;
+	}
+	.col-desktop-1 { width: 33.33%; }
+	.col-desktop-2 { width: 33.33%; }
+	.col-desktop-3 { width: 33.33%; }
+ }
+
+/********** Tablet Devices **********
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-tablet-1, .col-tablet-2, .col-tablet-3 {
+		float: left;
+		border: 1px solid green;
+	}
+	.col-tablet-1 {
+		width: 50%;
+	}
+	.col-tablet-2 {
+		width: 50%;
+	}
+	.col-tablet-3 {
+		width: 100%;
+	}
+ }
+
+
+/********** Mobile Devices **********
+@media (max-width: 767px) {
+	.col-mobile-1, .col-mobile-2, .col-mobile-3 {
+		float: left;
+		border: 1px solid green;
+	}
+	.col-mobile-1 {
+		width: 100%;
+	}
+	.col-mobile-2 {
+		width: 100%;
+	}
+	.col-mobile-3 {
+		width: 100%;
+	}
+}
+
+*/
+
+</style>
+</head>
+</html>
