@@ -86,29 +86,9 @@ h1 {
 	margin-top: 1%;
 	margin-right: 1%;
 	margin-left: 1%;
-	/* width: 31.0%; /*31/2% */
 	height: 280px;
 }
 
-/***** Define "chicken-menu-box" ID *****/
-/*****************************************/
-#chicken-menu-box {
-
-}
-
-
-/***** Define "beef-menu-box" ID *****/
-/**************************************/
-#beef-menu-box {
-
-}
-
-
-/***** Define "sushi-menu-box" ID *****/
-/***************************************/
-#sushi-menu-box {
-
-}
 
 /***** Define "menu-head" Class *****/
 /************************************/
@@ -154,84 +134,10 @@ h1 {
 	border: 0px;
 	margin-top: 0%;
 	width: 95%;
-	height: 80%;/* 95% */
+	height: 80%;
 	text-align: left;
 	overflow: auto;
 }
-
-
-/***** Define "chicken-menu-content" ID *****/
-/********************************************/
-#chicken-menu-content {
-
-}
-
-
-/***** Define "beef-menu-content" ID *****/
-/********************************************/
-#beef-menu-content {
-
-}
-
-
-/***** Define "sushi-menu-content" ID *****/
-/********************************************/
-#sushi-menu-content {
-
-}
-
-
-/* Simple Responsive Framework. 
-.row {
-	width: 50%;
-}
-
-/********** Desktop Devices **********
-@media (min-width: 992px) {
-	.col-desktop-1, .col-desktop-2, .col-desktop-3{
-		float: left;
-	}
-	.col-desktop-1 { width: 33.33%; }
-	.col-desktop-2 { width: 33.33%; }
-	.col-desktop-3 { width: 33.33%; }
- }
-
-/********** Tablet Devices **********
-@media (min-width: 768px) and (max-width: 991px) {
-	.col-tablet-1, .col-tablet-2, .col-tablet-3 {
-		float: left;
-		border: 1px solid green;
-	}
-	.col-tablet-1 {
-		width: 50%;
-	}
-	.col-tablet-2 {
-		width: 50%;
-	}
-	.col-tablet-3 {
-		width: 100%;
-	}
- }
-
-
-/********** Mobile Devices **********
-@media (max-width: 767px) {
-	.col-mobile-1, .col-mobile-2, .col-mobile-3 {
-		float: left;
-		border: 1px solid green;
-	}
-	.col-mobile-1 {
-		width: 100%;
-	}
-	.col-mobile-2 {
-		width: 100%;
-	}
-	.col-mobile-3 {
-		width: 100%;
-	}
-}
-
-*/
 
 </style>
 </head>
